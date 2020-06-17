@@ -6,6 +6,8 @@
   "scripts": {
     "test": "mocha || exit 0"
   },
+  "repository": "https://github.com/joshpetit/sda-hymnal",
+  "homepage": "https://github.com/joshpetit/sda-hymnal",
   "keywords": [
     "sda",
     "hymanl",
