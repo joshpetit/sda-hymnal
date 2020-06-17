@@ -16,6 +16,9 @@ sdaHymnal({
 }).then( x =>{
     //...
 })
+```
+#Formats
+```
 
 //JSON Format
 {
