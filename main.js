@@ -1,5 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('./data/hymns.db', err => {
+const path = require('path')
+const dbPath = path.resolve(__dirname, 'data/hymns.db')
+const db = new sqlite3.Database(dbPath, err => {
    if (err) console.log(err)
 });
 

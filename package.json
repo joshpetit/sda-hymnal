@@ -1,6 +1,6 @@
 {
   "name": "sda-hymnal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Hymnal for the Seventh-day Adventist Church",
   "main": "./main.js",
   "bin": "./main.js",
