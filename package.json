@@ -1,0 +1,27 @@
+{
+  "name": "sda-hymnal",
+  "version": "1.0.0",
+  "description": "The Hymnal for the Seventh-day Adventist Church",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha || exit 0"
+  },
+  "keywords": [
+    "sda",
+    "hymanl",
+    "seventh-day",
+    "adventist",
+    "church",
+    "gospel",
+    "music"
+  ],
+  "author": "Joshua Petitma",
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
