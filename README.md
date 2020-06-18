@@ -17,7 +17,7 @@ sdaHymnal({
     //...
 })
 ```
-#Formats
+# Formats
 ```
 
 //JSON Format
@@ -46,7 +46,7 @@ HYMN_TITLE
 Verse 1
 Verse_Text
 
-//Refrain
+Refrain
 Refrain_Text
 
 //HTML format
