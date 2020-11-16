@@ -2,11 +2,11 @@
 This is the entire (695 hymn) Sda Hymnal; free to use in any capacity.
 
 # Installation
-```
+```sh
 npm install sda-hymnal
 ```
 # Use
-```
+```js
 const sdaHymnal = require('sda-hymnal')
 
 sdaHymnal({
@@ -18,9 +18,9 @@ sdaHymnal({
 })
 ```
 # Formats
-```
+### Json Format
+```js
 
-//JSON Format
 {
    hymnNumber: NUMBER,
    hymnTitle: 'Title',
@@ -38,8 +38,9 @@ sdaHymnal({
    ]
 
 }
-
-//Text Format
+```
+### Text Format
+```
 HYMN_NUMBER
 HYMN_TITLE
 
@@ -48,8 +49,11 @@ Verse_Text
 
 Refrain
 Refrain_Text
+```
 
-//HTML format
+### HTML Format
+```html
+
 <h4>Hymn_Number</h4>
 <h4>Hymn_Title</h4>
 
